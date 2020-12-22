@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BhagwatGita</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7528823107761126/6499197308</string>
+    <string name="mailme">phoenixtechnolab.game@gmail.com</string>
+
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy Bhagvat Gita, would you mind taking a moment to rate it ?</string>
+    <string name="rate_dialog_ok">Rate it now</string>
+    <string name="rate_dialog_cancel">No thanks</string>
+    <string name="rate_dialog_no">Remind me later</string>
+
+
+</resources>

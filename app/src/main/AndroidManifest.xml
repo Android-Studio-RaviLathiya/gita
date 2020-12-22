@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gita.bhagwatgita">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".prefrence"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity  android:name=".ShlokList"/>
+        <activity  android:name=".ShlokListPlay1"/>
+        <activity  android:name=".ShlokListPlay2"/>
+        <activity  android:name=".ShlokListPlay3"/>
+        <activity  android:name=".ShlokListPlay4"/>
+        <activity  android:name=".ShlokListPlay5"/>
+        <activity  android:name=".ShlokListPlay6"/>
+        <activity  android:name=".ShlokListPlay7"/>
+        <activity  android:name=".ShlokListPlay8"/>
+        <activity  android:name=".ShlokListPlay9"/>
+        <activity  android:name=".ShlokListPlay10"/>
+        <activity  android:name=".ShlokListPlay11"/>
+        <activity  android:name=".ShlokListPlay12"/>
+        <activity  android:name=".ShlokListPlay13"/>
+        <activity  android:name=".ShlokListPlay14"/>
+        <activity  android:name=".ShlokListPlay15"/>
+        <activity  android:name=".ShlokListPlay16"/>
+        <activity  android:name=".ShlokListPlay17"/>
+        <activity  android:name=".ShlokListPlay18"/>
+
+
+        <activity android:name=".Entry">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Adhyaylist" />
+        <activity android:name=".Entry2" />
+        <activity android:name=".Questions" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7528823107761126~4281239837"/>
+
+
+
+    </application>
+
+</manifest>

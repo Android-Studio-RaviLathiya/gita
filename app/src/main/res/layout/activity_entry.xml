@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/letterspacee11"
+    android:padding="10dp">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:src="@drawable/cornerlu11"-->
+    <!--        android:visibility="invisible" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:src="@drawable/cornerru11"-->
+    <!--        android:visibility="invisible" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView3"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:src="@drawable/cornerrd11"-->
+    <!--        android:visibility="invisible" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView4"-->
+    <!--        android:layout_width="110dp"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:src="@drawable/cornerld11"-->
+    <!--        android:visibility="invisible" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView14"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/textwrapup"-->
+<!--            android:visibility="invisible" />-->
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="290dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:src="@drawable/bhagwadtext1"
+            android:visibility="invisible" />
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView15"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:src="@drawable/textwrapdown"-->
+<!--            android:visibility="invisible" />-->
+
+
+    </LinearLayout>
+
+</RelativeLayout>
